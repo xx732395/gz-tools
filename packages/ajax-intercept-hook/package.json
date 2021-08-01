@@ -21,10 +21,6 @@
   },
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
-  "files": [
-    "lib",
-    "packages"
-  ],
   "scripts": {
     "dev": "cross-env NODE_ENV=development rollup -c ./build/rollup.ajax-intercept.config.js -w",
     "build": "cross-env NODE_ENV=production rollup -c ./build/rollup.ajax-intercept.config.js"

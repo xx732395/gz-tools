@@ -22,5 +22,6 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development rollup -c ./build/rollup.ajax-intercept.config.js -w",
     "build": "cross-env NODE_ENV=production rollup -c ./build/rollup.ajax-intercept.config.js"
-  }
+  },
+  "gitHead": "8a84063ddabe20fdf6f1a9fd97cd83726a31cdd8"
 }

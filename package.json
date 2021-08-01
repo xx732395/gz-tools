@@ -5,6 +5,8 @@
   "private": true,
   "homepage": "https://github.com/xx732395/gz-tools#readme",
   "license": "MIT",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "workspaces": [
     "packages/*"
   ],
@@ -12,8 +14,6 @@
     "type": "git",
     "url": "git+https://github.com/xx732395/gz-tools"
   },
-  "module": "lib/index.js",
-  "typings": "lib/index.d.ts",
   "files": [
     "lib",
     "packages/*"

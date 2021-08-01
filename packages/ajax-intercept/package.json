@@ -1,7 +1,7 @@
 {
   "name": "ajax-intercept",
-  "version": "0.0.1",
-  "description": "一个ajaxjssdk",
+  "version": "0.0.4",
+  "description": "用于无侵入式拦截ajax请求",
   "author": "guozi <421826878@qq.com>",
   "homepage": "https://github.com/xx732395/gz-tools",
   "license": "MIT",

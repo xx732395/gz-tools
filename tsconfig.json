@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": true, // 不报告执行不到的代码错误。
+    "allowUnusedLabels": false, // 不报告未使用的标签错误
+    "alwaysStrict": false, // 以严格模式解析并为每个源文件生成 "use strict"语句
+    "removeComments": true, // 是否移除注释
+    "noImplicitAny": false, // 是否默认禁用 any
+    "target": "es6",
+    "module": "esnext", // 指定生成哪个模块系统代码
+    "strict": true,
+    "noLib": false,
+    "jsx": "preserve",
+    // "forceConsistentCasingInFileNames": false,
+    "allowJs": true, // 允许编译器编译JS，JSX文件
+    "declaration": true, // 是否自动创建类型声明文件
+    // "declarationDir": "dist", // 类型声明文件的输出目录
+    "noUnusedLocals": true, // 检查只声明、未使用的局部变量(只提示不报错)
+    "noUnusedParameters": true, // 检查未使用的函数参数(只提示不报错)
+    "importHelpers": true, // 通过tslib引入helper函数，文件必须是模块
+    "moduleResolution": "node", // 模块解析策略，ts默认用node的解析策略，即相对的方式导入
+    "experimentalDecorators": true, // 启用实验性的ES装饰器
+    // "esModuleInterop": true, // 允许export=导出，由import from 导入
+    "allowSyntheticDefaultImports": true, // 用来指定允许从没有默认导出的模块中默认导入
+    "sourceMap": true,
+    "resolveJsonModule": true, // 允许导入json文件
+    "baseUrl": ".",
+    // "typeRoots": [], // 声明文件目录，默认时node_modules/@types
+    "types": [ // 加载的声明文件包 如果指定了某个值， 她会在 typeRoots 下找这个包，找到了就只加载这个包
+      "node"
+    ],
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
+  },
+  // // 指定一个匹配列表（属于自动指定该路径下的所有ts相关文件）
+  // "include": [
+  //     "packages/**/*.ts",
+  //     "packages/**/*.js",
+  // ],
+  // 指定一个排除列表（include的反向操作）
+  "exclude": [
+    "node_modules",
+    "build/**/*",
+    "dist/**/*",
+    "lib/**/*",
+    "scripts/**/*"
+  ]
+}

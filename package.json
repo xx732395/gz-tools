@@ -16,7 +16,7 @@
   "typings": "lib/index.d.ts",
   "files": [
     "lib",
-    "packages"
+    "packages/*"
   ],
   "scripts": {
     "dev": "cross-env NODE_ENV=development rollup -c ./build/rollup.ajax-intercept.config.js -w",

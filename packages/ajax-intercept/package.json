@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "description": "用于无侵入式拦截ajax请求",
   "author": "guozi <421826878@qq.com>",
-  "homepage": "https://github.com/xx732395/gz-tools",
+  "homepage": "https://github.com/xx732395/gz-tools#readme",
   "license": "MIT",
   "directories": {
     "lib": "lib",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xx732395/gz-tools"
+    "url": "git+https://github.com/xx732395/gz-tools"
   },
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -23,5 +23,5 @@
     "dev": "cross-env NODE_ENV=development rollup -c ./build/rollup.ajax-intercept.config.js -w",
     "build": "cross-env NODE_ENV=production rollup -c ./build/rollup.ajax-intercept.config.js"
   },
-  "gitHead": "4ffa8e3bb146a697ed58ee3ddf4a313da348b48e"
+  "gitHead": "89d7c548d753e96a6f2dd6f87769f3a9a3f80d48"
 }

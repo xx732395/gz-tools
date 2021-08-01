@@ -15,6 +15,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development rollup -c ./build/rollup.ajax-intercept.config.js -w",
     "build": "cross-env NODE_ENV=production rollup -c ./build/rollup.ajax-intercept.config.js",
+    "lernadev": "lerna exec --scope ajax-intercept -- npm run dev",
     "lint": "eslint ./packages --ext .js,.ts",
     "lint-fix": "eslint --fix ./packages --ext .js,.ts",
     "clear": "lerna clean"

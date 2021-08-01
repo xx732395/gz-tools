@@ -24,9 +24,9 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 export default {
-  input: 'packages/xml-http-request-intercept/index.ts',
+  input: 'packages/ajax-intercept/index.ts',
   output: {
-    file: `${process.env.NODE_ENV === 'production' ? 'dist' : 'lib'}/index.js`,
+    file: `lib/${process.env.NODE_ENV === 'production' ? 'index.min.js' : 'index.js'}`,
     name: 'GzTool',
     format: 'umd'
   },
@@ -37,7 +37,7 @@ export default {
           declaration: true, // 生成.d.ts文件
         },
         include: [
-          `packages/xml-http-request-intercept`
+          `packages/ajax-intercept`
         ],
         exclude: [
           // 'node_modules',

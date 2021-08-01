@@ -1,10 +1,11 @@
 {
-  "name": "ajax-intercept",
+  "name": "ajax-intercept-hook",
   "version": "0.0.5",
   "description": "用于无侵入式拦截ajax请求",
   "author": "guozi <421826878@qq.com>",
   "homepage": "https://github.com/xx732395/gz-tools#readme",
   "license": "MIT",
+  "private": false,
   "keyword": [
     "ajax",
     "XMLHTTPRequest",

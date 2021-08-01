@@ -24,7 +24,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 export default {
-  input: 'packages/ajax-intercept/index.ts',
+  input: 'packages/ajax-intercept-hook/index.ts',
   output: {
     file: `lib/${process.env.NODE_ENV === 'production' ? 'index.min.js' : 'index.js'}`,
     name: 'GzTool',
@@ -37,7 +37,7 @@ export default {
           declaration: true, // 生成.d.ts文件
         },
         include: [
-          `packages/ajax-intercept`
+          `packages/ajax-intercept-hook`
         ],
         exclude: [
           // 'node_modules',

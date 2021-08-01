@@ -6,6 +6,9 @@
   "homepage": "https://github.com/xx732395/gz-tools#readme",
   "license": "MIT",
   "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "typings": "lib/index.d.ts",
   "keyword": [
     "ajax",

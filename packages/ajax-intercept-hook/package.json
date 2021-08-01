@@ -5,7 +5,6 @@
   "author": "guozi <421826878@qq.com>",
   "homepage": "https://github.com/xx732395/gz-tools#readme",
   "license": "MIT",
-  "private": false,
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "keyword": [

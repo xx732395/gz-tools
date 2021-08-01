@@ -1,6 +1,6 @@
 {
   "name": "ajax-intercept",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "一个ajaxjssdk",
   "author": "guozi <421826878@qq.com>",
   "homepage": "https://github.com/xx732395/gz-tools",
@@ -23,5 +23,5 @@
     "dev": "cross-env NODE_ENV=development rollup -c ./build/rollup.ajax-intercept.config.js -w",
     "build": "cross-env NODE_ENV=production rollup -c ./build/rollup.ajax-intercept.config.js"
   },
-  "gitHead": "8a84063ddabe20fdf6f1a9fd97cd83726a31cdd8"
+  "gitHead": "4ffa8e3bb146a697ed58ee3ddf4a313da348b48e"
 }

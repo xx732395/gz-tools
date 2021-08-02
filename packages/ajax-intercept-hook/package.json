@@ -7,7 +7,8 @@
   "license": "MIT",
   "main": "lib/index.js",
   "files": [
-    "lib"
+    "__tests__",
+    "../../lib"
   ],
   "typings": "lib/index.d.ts",
   "keyword": [

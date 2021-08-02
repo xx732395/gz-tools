@@ -11,7 +11,7 @@
 
 ### demo
 
-引入 script 资源
+ script 引入方式
 
 ```javascript
 <script src="../lib/index.js"></script>
@@ -39,3 +39,17 @@ new GzTool.XMLHTTPRequestIntercept({
   }
 })
 ```
+
+npm 方式
+
+```shell
+npm install ajax-intercept-hook -S
+```
+
+```javascript
+import { XMLHTTPRequestIntercept } from 'ajax-intercept-hook'
+
+// 使用方法同script引入
+
+```
+

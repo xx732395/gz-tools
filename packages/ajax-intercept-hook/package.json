@@ -1,6 +1,6 @@
 {
   "name": "ajax-intercept-hook",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "用于无侵入式拦截ajax请求",
   "author": "guozi <421826878@qq.com>",
   "homepage": "https://github.com/xx732395/gz-tools#readme",

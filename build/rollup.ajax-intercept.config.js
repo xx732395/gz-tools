@@ -22,11 +22,11 @@ if (process.env.NODE_ENV === 'production') {
     }
   }))
 }
-
+const mduleName = 'ajax-intercept-hook'
 export default {
-  input: 'packages/ajax-intercept-hook/index.ts',
+  input: `packages/${mduleName}/src/index.ts`,
   output: {
-    file: `lib/${process.env.NODE_ENV === 'production' ? 'index.min.js' : 'index.js'}`,
+    file: `packages/${mduleName}/lib/${process.env.NODE_ENV === 'production' ? 'index.min.js' : 'index.js'}`,
     name: 'GzTool',
     format: 'umd'
   },
@@ -37,11 +37,13 @@ export default {
           declaration: true, // 生成.d.ts文件
         },
         include: [
-          `packages/ajax-intercept-hook`
+          `packages/${mduleName}/src`
         ],
         exclude: [
           // 'node_modules',
-          '__tests__'
+          '__tests__',
+          'lib',
+          'example'
         ]
       },
       abortOnError: false

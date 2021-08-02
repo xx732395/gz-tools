@@ -5,7 +5,7 @@
   "author": "guozi <421826878@qq.com>",
   "homepage": "https://github.com/xx732395/gz-tools#readme",
   "license": "MIT",
-  "main": "lib/index.js",
+  "main": "lib/index.min.js",
   "typings": "lib/index.d.ts",
   "keyword": [
     "ajax",
